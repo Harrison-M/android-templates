@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java" deleted="false" description="Set on click listener for a view" enabled="true" name="setOnClick">View ${view:newName(android.view.View)} = ${layout:var(android.view.View)}.findViewById(${id:var(int)});
+${view}.setOnClickListener(${listener:var(android.view.View.OnClickListener)});</template></templates>
